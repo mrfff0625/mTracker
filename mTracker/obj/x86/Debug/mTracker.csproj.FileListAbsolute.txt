@@ -1,0 +1,8 @@
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\bin\Debug\mTracker.exe
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\bin\Debug\mTracker.pdb
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.MainForm.resources
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.Properties.Resources.resources
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.csproj.GenerateResource.Cache
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.exe
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.pdb
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\bin\Debug\mTracker.exe.config
