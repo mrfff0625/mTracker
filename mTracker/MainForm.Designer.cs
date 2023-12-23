@@ -42,16 +42,25 @@
             this.mstPage = new System.Windows.Forms.ToolStripMenuItem();
             this.tstStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.sstStatus = new System.Windows.Forms.StatusStrip();
             this.tstNew = new System.Windows.Forms.ToolStripButton();
             this.tstOpen = new System.Windows.Forms.ToolStripButton();
             this.tstSave = new System.Windows.Forms.ToolStripButton();
             this.tstStop = new System.Windows.Forms.ToolStripButton();
             this.tstPlay = new System.Windows.Forms.ToolStripButton();
             this.tstPause = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.tstTempo = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.tstTempoTxt = new System.Windows.Forms.ToolStripLabel();
+            this.tstOctave = new System.Windows.Forms.ToolStripTextBox();
+            this.tstOctaveTxt = new System.Windows.Forms.ToolStripLabel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.mstMenu.SuspendLayout();
             this.tstStrip.SuspendLayout();
             this.SuspendLayout();
@@ -136,7 +145,13 @@
             this.tstStop,
             this.tstPlay,
             this.tstPause,
-            this.toolStripSeparator3});
+            this.toolStripSeparator3,
+            this.tstOctaveTxt,
+            this.tstOctave,
+            this.toolStripSeparator4,
+            this.tstTempoTxt,
+            this.tstTempo,
+            this.toolStripSeparator5});
             resources.ApplyResources(this.tstStrip, "tstStrip");
             this.tstStrip.Name = "tstStrip";
             this.tstStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
@@ -145,6 +160,17 @@
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            // 
+            // sstStatus
+            // 
+            resources.ApplyResources(this.sstStatus, "sstStatus");
+            this.sstStatus.Name = "sstStatus";
+            this.sstStatus.SizingGrip = false;
             // 
             // tstNew
             // 
@@ -187,10 +213,35 @@
             resources.ApplyResources(this.tstPause, "tstPause");
             this.tstPause.Name = "tstPause";
             // 
-            // toolStripSeparator3
+            // toolStripSeparator5
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
+            // 
+            // tstTempo
+            // 
+            this.tstTempo.Name = "tstTempo";
+            resources.ApplyResources(this.tstTempo, "tstTempo");
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
+            // 
+            // tstTempoTxt
+            // 
+            this.tstTempoTxt.Name = "tstTempoTxt";
+            resources.ApplyResources(this.tstTempoTxt, "tstTempoTxt");
+            // 
+            // tstOctave
+            // 
+            this.tstOctave.Name = "tstOctave";
+            resources.ApplyResources(this.tstOctave, "tstOctave");
+            // 
+            // tstOctaveTxt
+            // 
+            this.tstOctaveTxt.Name = "tstOctaveTxt";
+            resources.ApplyResources(this.tstOctaveTxt, "tstOctaveTxt");
             // 
             // panel1
             // 
@@ -198,25 +249,40 @@
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
+            // splitter1
+            // 
+            resources.ApplyResources(this.splitter1, "splitter1");
+            this.splitter1.Name = "splitter1";
+            this.splitter1.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
-            // statusStrip1
+            // splitter2
             // 
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.SizingGrip = false;
+            resources.ApplyResources(this.splitter2, "splitter2");
+            this.splitter2.Name = "splitter2";
+            this.splitter2.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.splitter2);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.sstStatus);
             this.Controls.Add(this.tstStrip);
             this.Controls.Add(this.mstMenu);
             this.MainMenuStrip = this.mstMenu;
@@ -252,9 +318,18 @@
         private System.Windows.Forms.ToolStripButton tstPlay;
         private System.Windows.Forms.ToolStripButton tstPause;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.StatusStrip sstStatus;
+        private System.Windows.Forms.ToolStripLabel tstOctaveTxt;
+        private System.Windows.Forms.ToolStripTextBox tstOctave;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripLabel tstTempoTxt;
+        private System.Windows.Forms.ToolStripTextBox tstTempo;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.Splitter splitter2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
