@@ -121,6 +121,41 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mstMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mstMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="mstMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mstMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mstMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;mstMenu.Name" xml:space="preserve">
+    <value>mstMenu</value>
+  </data>
+  <data name="&gt;&gt;mstMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mstMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mstMenu.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mstFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="mstFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="mstNew.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 22</value>
   </data>
@@ -154,11 +189,11 @@
   <data name="mstExit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="mstFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+  <data name="mstHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
   </data>
-  <data name="mstFile.Text" xml:space="preserve">
-    <value>File</value>
+  <data name="mstHelp.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="mstAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 22</value>
@@ -172,44 +207,69 @@
   <data name="mstPage.Text" xml:space="preserve">
     <value>Help page</value>
   </data>
-  <data name="mstHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="mstHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="mstMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mstMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 2, 0, 2</value>
-  </data>
-  <data name="mstMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>624, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mstMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="mstMenu.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;mstMenu.Name" xml:space="preserve">
-    <value>mstMenu</value>
-  </data>
-  <data name="&gt;&gt;mstMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mstMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mstMenu.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <metadata name="tstStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>120, 17</value>
   </metadata>
+  <data name="tstStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tstStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 1, 0</value>
+  </data>
+  <data name="tstStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 25</value>
+  </data>
+  <data name="tstStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tstStrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;tstStrip.Name" xml:space="preserve">
+    <value>tstStrip</value>
+  </data>
+  <data name="&gt;&gt;tstStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tstStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tstStrip.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <metadata name="sstStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 17</value>
+  </metadata>
+  <data name="sstStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 419</value>
+  </data>
+  <data name="sstStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 22</value>
+  </data>
+  <data name="sstStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="sstStatus.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;sstStatus.Name" xml:space="preserve">
+    <value>sstStatus</value>
+  </data>
+  <data name="&gt;&gt;sstStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sstStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sstStatus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="tstNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -236,9 +296,6 @@
   </data>
   <data name="tstSave.Text" xml:space="preserve">
     <value>Save</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
   </data>
   <data name="tstStop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -274,20 +331,14 @@
   <data name="tstPause.Text" xml:space="preserve">
     <value>Pause</value>
   </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
-  <data name="tstOctaveTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 22</value>
+  <data name="tstTempo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 25</value>
   </data>
-  <data name="tstOctaveTxt.Text" xml:space="preserve">
-    <value>Octave: </value>
-  </data>
-  <data name="tstOctave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 25</value>
-  </data>
-  <data name="tstOctave.Text" xml:space="preserve">
-    <value>4</value>
+  <data name="tstTempo.Text" xml:space="preserve">
+    <value>130</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
@@ -298,68 +349,29 @@
   <data name="tstTempoTxt.Text" xml:space="preserve">
     <value>Tempo: </value>
   </data>
-  <data name="tstTempo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 25</value>
+  <data name="tstOctave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
   </data>
-  <data name="tstTempo.Text" xml:space="preserve">
-    <value>130</value>
+  <data name="tstOctave.Text" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
+  <data name="tstOctaveTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
   </data>
-  <data name="tstStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
+  <data name="tstOctaveTxt.Text" xml:space="preserve">
+    <value>Octave: </value>
   </data>
-  <data name="tstStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 1, 0</value>
+  <data name="&gt;&gt;trvTree.Name" xml:space="preserve">
+    <value>trvTree</value>
   </data>
-  <data name="tstStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>624, 25</value>
+  <data name="&gt;&gt;trvTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tstStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;trvTree.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="tstStrip.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;tstStrip.Name" xml:space="preserve">
-    <value>tstStrip</value>
-  </data>
-  <data name="&gt;&gt;tstStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tstStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tstStrip.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <metadata name="sstStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>210, 17</value>
-  </metadata>
-  <data name="sstStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 419</value>
-  </data>
-  <data name="sstStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>624, 22</value>
-  </data>
-  <data name="sstStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="sstStatus.Text" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="&gt;&gt;sstStatus.Name" xml:space="preserve">
-    <value>sstStatus</value>
-  </data>
-  <data name="&gt;&gt;sstStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sstStatus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;sstStatus.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;trvTree.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -406,6 +418,18 @@
   <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;tabTabs.Name" xml:space="preserve">
+    <value>tabTabs</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -413,7 +437,7 @@
     <value>183, 49</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>441, 100</value>
+    <value>441, 150</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -434,7 +458,7 @@
     <value>Top</value>
   </data>
   <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 149</value>
+    <value>183, 199</value>
   </data>
   <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
     <value>441, 3</value>
@@ -458,10 +482,10 @@
     <value>Fill</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 152</value>
+    <value>183, 202</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>441, 267</value>
+    <value>441, 217</value>
   </data>
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -477,6 +501,132 @@
   </data>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="trvTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="trvTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="trvTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 366</value>
+  </data>
+  <data name="trvTree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;trvTree.Name" xml:space="preserve">
+    <value>trvTree</value>
+  </data>
+  <data name="&gt;&gt;trvTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trvTree.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;trvTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.Name" xml:space="preserve">
+    <value>tpgPatterns</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.Parent" xml:space="preserve">
+    <value>tabTabs</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.Name" xml:space="preserve">
+    <value>tpgSamples</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.Parent" xml:space="preserve">
+    <value>tabTabs</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabTabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 146</value>
+  </data>
+  <data name="tabTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.Name" xml:space="preserve">
+    <value>tabTabs</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;tabTabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpgPatterns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpgPatterns.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpgPatterns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 120</value>
+  </data>
+  <data name="tpgPatterns.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpgPatterns.Text" xml:space="preserve">
+    <value>Patterns</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.Name" xml:space="preserve">
+    <value>tpgPatterns</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.Parent" xml:space="preserve">
+    <value>tabTabs</value>
+  </data>
+  <data name="&gt;&gt;tpgPatterns.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpgSamples.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpgSamples.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpgSamples.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 120</value>
+  </data>
+  <data name="tpgSamples.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpgSamples.Text" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.Name" xml:space="preserve">
+    <value>tpgSamples</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.Parent" xml:space="preserve">
+    <value>tabTabs</value>
+  </data>
+  <data name="&gt;&gt;tpgSamples.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

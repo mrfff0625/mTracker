@@ -61,8 +61,15 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.trvTree = new System.Windows.Forms.TreeView();
+            this.tabTabs = new System.Windows.Forms.TabControl();
+            this.tpgPatterns = new System.Windows.Forms.TabPage();
+            this.tpgSamples = new System.Windows.Forms.TabPage();
             this.mstMenu.SuspendLayout();
             this.tstStrip.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.tabTabs.SuspendLayout();
             this.SuspendLayout();
             // 
             // mstMenu
@@ -246,6 +253,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.trvTree);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
@@ -258,6 +266,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.tabTabs);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
@@ -272,6 +281,32 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
+            // 
+            // trvTree
+            // 
+            this.trvTree.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.trvTree, "trvTree");
+            this.trvTree.Name = "trvTree";
+            // 
+            // tabTabs
+            // 
+            this.tabTabs.Controls.Add(this.tpgPatterns);
+            this.tabTabs.Controls.Add(this.tpgSamples);
+            resources.ApplyResources(this.tabTabs, "tabTabs");
+            this.tabTabs.Name = "tabTabs";
+            this.tabTabs.SelectedIndex = 0;
+            // 
+            // tpgPatterns
+            // 
+            resources.ApplyResources(this.tpgPatterns, "tpgPatterns");
+            this.tpgPatterns.Name = "tpgPatterns";
+            this.tpgPatterns.UseVisualStyleBackColor = true;
+            // 
+            // tpgSamples
+            // 
+            resources.ApplyResources(this.tpgSamples, "tpgSamples");
+            this.tpgSamples.Name = "tpgSamples";
+            this.tpgSamples.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -291,6 +326,9 @@
             this.mstMenu.PerformLayout();
             this.tstStrip.ResumeLayout(false);
             this.tstStrip.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.tabTabs.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -330,6 +368,10 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Splitter splitter2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TreeView trvTree;
+        private System.Windows.Forms.TabControl tabTabs;
+        private System.Windows.Forms.TabPage tpgPatterns;
+        private System.Windows.Forms.TabPage tpgSamples;
     }
 }
 
