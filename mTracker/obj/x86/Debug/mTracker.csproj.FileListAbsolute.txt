@@ -6,3 +6,4 @@ C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.csproj.Genera
 C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.exe
 C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.pdb
 C:\Users\mrfff\Desktop\c#\mTracker\mTracker\bin\Debug\mTracker.exe.config
+C:\Users\mrfff\Desktop\c#\mTracker\mTracker\obj\x86\Debug\mTracker.csprojResolveAssemblyReference.cache

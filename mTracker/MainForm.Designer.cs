@@ -41,41 +41,62 @@
             this.mstAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.mstPage = new System.Windows.Forms.ToolStripMenuItem();
             this.tstStrip = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.sstStatus = new System.Windows.Forms.StatusStrip();
             this.tstNew = new System.Windows.Forms.ToolStripButton();
             this.tstOpen = new System.Windows.Forms.ToolStripButton();
             this.tstSave = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tstStop = new System.Windows.Forms.ToolStripButton();
             this.tstPlay = new System.Windows.Forms.ToolStripButton();
             this.tstPause = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.tstTempo = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.tstOctaveTxt = new System.Windows.Forms.ToolStripLabel();
+            this.tstOctave = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.tstTempoTxt = new System.Windows.Forms.ToolStripLabel();
-            this.tstOctave = new System.Windows.Forms.ToolStripTextBox();
-            this.tstOctaveTxt = new System.Windows.Forms.ToolStripLabel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.splitter2 = new System.Windows.Forms.Splitter();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.tstTempo = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.sstStatus = new System.Windows.Forms.StatusStrip();
+            this.pnlFiles = new System.Windows.Forms.Panel();
             this.trvTree = new System.Windows.Forms.TreeView();
-            this.tabTabs = new System.Windows.Forms.TabControl();
-            this.tpgPatterns = new System.Windows.Forms.TabPage();
-            this.tpgSamples = new System.Windows.Forms.TabPage();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.pnlControls = new System.Windows.Forms.Panel();
+            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.pnlGrid = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.playerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playPatternToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playFromStartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.mstMenu.SuspendLayout();
             this.tstStrip.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.tabTabs.SuspendLayout();
+            this.pnlFiles.SuspendLayout();
+            this.pnlControls.SuspendLayout();
+            this.pnlGrid.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // mstMenu
             // 
             this.mstMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mstFile,
+            this.playerToolStripMenuItem,
             this.mstHelp});
             resources.ApplyResources(this.mstMenu, "mstMenu");
             this.mstMenu.Name = "mstMenu";
@@ -163,22 +184,6 @@
             this.tstStrip.Name = "tstStrip";
             this.tstStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
-            // 
-            // sstStatus
-            // 
-            resources.ApplyResources(this.sstStatus, "sstStatus");
-            this.sstStatus.Name = "sstStatus";
-            this.sstStatus.SizingGrip = false;
-            // 
             // tstNew
             // 
             this.tstNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -200,6 +205,11 @@
             resources.ApplyResources(this.tstSave, "tstSave");
             this.tstSave.Name = "tstSave";
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
             // tstStop
             // 
             this.tstStop.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -220,15 +230,20 @@
             resources.ApplyResources(this.tstPause, "tstPause");
             this.tstPause.Name = "tstPause";
             // 
-            // toolStripSeparator5
+            // toolStripSeparator3
             // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
-            // tstTempo
+            // tstOctaveTxt
             // 
-            this.tstTempo.Name = "tstTempo";
-            resources.ApplyResources(this.tstTempo, "tstTempo");
+            this.tstOctaveTxt.Name = "tstOctaveTxt";
+            resources.ApplyResources(this.tstOctaveTxt, "tstOctaveTxt");
+            // 
+            // tstOctave
+            // 
+            this.tstOctave.Name = "tstOctave";
+            resources.ApplyResources(this.tstOctave, "tstOctave");
             // 
             // toolStripSeparator4
             // 
@@ -240,47 +255,27 @@
             this.tstTempoTxt.Name = "tstTempoTxt";
             resources.ApplyResources(this.tstTempoTxt, "tstTempoTxt");
             // 
-            // tstOctave
+            // tstTempo
             // 
-            this.tstOctave.Name = "tstOctave";
-            resources.ApplyResources(this.tstOctave, "tstOctave");
+            this.tstTempo.Name = "tstTempo";
+            resources.ApplyResources(this.tstTempo, "tstTempo");
             // 
-            // tstOctaveTxt
+            // toolStripSeparator5
             // 
-            this.tstOctaveTxt.Name = "tstOctaveTxt";
-            resources.ApplyResources(this.tstOctaveTxt, "tstOctaveTxt");
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             // 
-            // panel1
+            // sstStatus
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.trvTree);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            resources.ApplyResources(this.sstStatus, "sstStatus");
+            this.sstStatus.Name = "sstStatus";
             // 
-            // splitter1
+            // pnlFiles
             // 
-            resources.ApplyResources(this.splitter1, "splitter1");
-            this.splitter1.Name = "splitter1";
-            this.splitter1.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.tabTabs);
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
-            // 
-            // splitter2
-            // 
-            resources.ApplyResources(this.splitter2, "splitter2");
-            this.splitter2.Name = "splitter2";
-            this.splitter2.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
+            this.pnlFiles.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlFiles.Controls.Add(this.trvTree);
+            resources.ApplyResources(this.pnlFiles, "pnlFiles");
+            this.pnlFiles.Name = "pnlFiles";
             // 
             // trvTree
             // 
@@ -288,35 +283,164 @@
             resources.ApplyResources(this.trvTree, "trvTree");
             this.trvTree.Name = "trvTree";
             // 
-            // tabTabs
+            // splitter1
             // 
-            this.tabTabs.Controls.Add(this.tpgPatterns);
-            this.tabTabs.Controls.Add(this.tpgSamples);
-            resources.ApplyResources(this.tabTabs, "tabTabs");
-            this.tabTabs.Name = "tabTabs";
-            this.tabTabs.SelectedIndex = 0;
+            resources.ApplyResources(this.splitter1, "splitter1");
+            this.splitter1.Name = "splitter1";
+            this.splitter1.TabStop = false;
             // 
-            // tpgPatterns
+            // pnlControls
             // 
-            resources.ApplyResources(this.tpgPatterns, "tpgPatterns");
-            this.tpgPatterns.Name = "tpgPatterns";
-            this.tpgPatterns.UseVisualStyleBackColor = true;
+            this.pnlControls.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlControls.Controls.Add(this.groupBox3);
+            this.pnlControls.Controls.Add(this.groupBox2);
+            this.pnlControls.Controls.Add(this.groupBox1);
+            resources.ApplyResources(this.pnlControls, "pnlControls");
+            this.pnlControls.Name = "pnlControls";
             // 
-            // tpgSamples
+            // splitter2
             // 
-            resources.ApplyResources(this.tpgSamples, "tpgSamples");
-            this.tpgSamples.Name = "tpgSamples";
-            this.tpgSamples.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.splitter2, "splitter2");
+            this.splitter2.Name = "splitter2";
+            this.splitter2.TabStop = false;
+            // 
+            // pnlGrid
+            // 
+            this.pnlGrid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlGrid.Controls.Add(this.dataGridView1);
+            resources.ApplyResources(this.pnlGrid, "pnlGrid");
+            this.pnlGrid.Name = "pnlGrid";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.button1);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox2, "comboBox2");
+            this.comboBox2.Name = "comboBox2";
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.trackBar1);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.comboBox3);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox3, "comboBox3");
+            this.comboBox3.Name = "comboBox3";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.LargeChange = 10;
+            resources.ApplyResources(this.trackBar1, "trackBar1");
+            this.trackBar1.Maximum = 255;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.TickFrequency = 16;
+            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.trackBar1.Value = 255;
+            // 
+            // playerToolStripMenuItem
+            // 
+            this.playerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.playToolStripMenuItem,
+            this.playFromStartToolStripMenuItem,
+            this.playPatternToolStripMenuItem,
+            this.stopToolStripMenuItem});
+            this.playerToolStripMenuItem.Name = "playerToolStripMenuItem";
+            resources.ApplyResources(this.playerToolStripMenuItem, "playerToolStripMenuItem");
+            // 
+            // playToolStripMenuItem
+            // 
+            this.playToolStripMenuItem.Name = "playToolStripMenuItem";
+            resources.ApplyResources(this.playToolStripMenuItem, "playToolStripMenuItem");
+            // 
+            // playPatternToolStripMenuItem
+            // 
+            this.playPatternToolStripMenuItem.Name = "playPatternToolStripMenuItem";
+            resources.ApplyResources(this.playPatternToolStripMenuItem, "playPatternToolStripMenuItem");
+            // 
+            // stopToolStripMenuItem
+            // 
+            this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
+            resources.ApplyResources(this.stopToolStripMenuItem, "stopToolStripMenuItem");
+            // 
+            // playFromStartToolStripMenuItem
+            // 
+            this.playFromStartToolStripMenuItem.Name = "playFromStartToolStripMenuItem";
+            resources.ApplyResources(this.playFromStartToolStripMenuItem, "playFromStartToolStripMenuItem");
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.Name = "dataGridView1";
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pnlGrid);
             this.Controls.Add(this.splitter2);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlControls);
             this.Controls.Add(this.splitter1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlFiles);
             this.Controls.Add(this.sstStatus);
             this.Controls.Add(this.tstStrip);
             this.Controls.Add(this.mstMenu);
@@ -326,9 +450,15 @@
             this.mstMenu.PerformLayout();
             this.tstStrip.ResumeLayout(false);
             this.tstStrip.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.tabTabs.ResumeLayout(false);
+            this.pnlFiles.ResumeLayout(false);
+            this.pnlControls.ResumeLayout(false);
+            this.pnlGrid.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -363,15 +493,30 @@
         private System.Windows.Forms.ToolStripLabel tstTempoTxt;
         private System.Windows.Forms.ToolStripTextBox tstTempo;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlFiles;
         private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlControls;
         private System.Windows.Forms.Splitter splitter2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel pnlGrid;
         private System.Windows.Forms.TreeView trvTree;
-        private System.Windows.Forms.TabControl tabTabs;
-        private System.Windows.Forms.TabPage tpgPatterns;
-        private System.Windows.Forms.TabPage tpgSamples;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ToolStripMenuItem playerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem playToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem playPatternToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem playFromStartToolStripMenuItem;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
