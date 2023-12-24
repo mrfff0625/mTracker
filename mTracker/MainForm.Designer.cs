@@ -446,6 +446,7 @@
             this.Controls.Add(this.mstMenu);
             this.MainMenuStrip = this.mstMenu;
             this.Name = "MainForm";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.mstMenu.ResumeLayout(false);
             this.mstMenu.PerformLayout();
             this.tstStrip.ResumeLayout(false);
